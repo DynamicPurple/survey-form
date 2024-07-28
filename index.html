@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>AI Pros & Cons</title>
+   <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+  <div>
+    <h1 id="title">AI Pros & Cons</h1>
+    <p id="description">Welcome to our survey on the <strong>Pros and Cons of Artificial Intelligence</strong>!</p>
+    <p id="description">We aim to understand your views on AI, including its benefits and potential challenges. This survey will take about 10-15 minutes to complete, and your responses will remain confidential.</p>
+    <p id="description">Your input is valuable in shaping the future of AI. Thank you for your participation!</p>
+  </div>
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label" for="name">Name:
+        <input id="name" type="text" name="name" placeholder="Enter your name" required >
+      </label>
+      <label id="email-label" for="email">Email:
+        <input id="email" type="email" name="email" placeholder="Enter your Email" required >
+      </label>
+      <label id="number-label" for="number">Age:
+        <input id="number" type="number" name="number" min="13" max="120" placeholder="Age" required >
+      </label>
+      <label>What is your current occupation?
+        <select id="dropdown">
+          <option value="other">Other</option>
+          <option value="student">Student</option>
+          <option value="professional">Professional</option>
+          <option value="academic/research">Academic/Research</option>
+          <option value="retired">Retired</option>
+        </select>
+        <label>How familiar are you with artificial intelligence (AI)?
+        <select id="dropdown">
+          <option value="unfamiliar">Not familiar</option>
+          <option value="slightly">Slightly familiar</option>
+          <option value="moderate" selected>Moderately familiar</option>
+          <option value="familiar">Very familiar</option>
+          <option value="expert">Extremely familiar</option>
+        </select>
+      </label>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>How do you think AI impacts your daily life?</legend>
+      <label>
+        <input type="radio" name="experience_level" value="very-negative" required/>
+        Very Negatively
+      </label>
+      <label>
+        <input type="radio" name="experience_level" value="negative" required/>
+        Negatively
+      </label>
+      <label>
+        <input type="radio" name="experience_level" value="neutral" required/>
+        Neutral
+      </label>
+      <label>
+        <input type="radio" name="experience_level" value="positive" required/>
+        Positively
+      </label>
+      <label>
+        <input type="radio" name="experience_level" value="very-positive" required/>
+        Very Positively
+      </label>
+      <br>
+      <legend>How would you rate your understanding of AI technologies?</legend>
+      <label>
+        <input type="radio" name="experience_level" value="1" required/>
+        Poor
+      </label>
+      <label>
+        <input type="radio" name="experience_level" value="2" required/>
+        Fair
+      </label>
+      <label>
+        <input type="radio" name="experience_level" value="3" required/>
+        Good
+      </label>
+      <label>
+        <input type="radio" name="experience_level" value="4" required/>
+        Very good
+      </label>
+      <label>
+        <input type="radio" name="experience_level" value="5" required/>
+        Excelent
+      </label>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>What do you see as the primary advantages of AI? (Select all that apply)</legend>
+      <label><input type="checkbox"  value="1"/>
+      Improved efficiency and productivity
+      </label><label><input type="checkbox" value="2"/>
+      Enhanced decision-making capabilities
+      </label>
+      <label><input type="checkbox"/  value="3">
+      Advances in healthcare and medical treatments
+      </label>
+      <label><input type="checkbox"/ value="4">
+      Better customer service through AI chatbots
+      </label>
+      <label><input type="checkbox"/ value="5">
+      Innovations in transportation (e.g., self-driving cars)
+      </label>
+      <label>Have you experienced any benefits of AI in your personal or professional life?
+        <textarea rows="3" cols="30" placeholder=""></textarea>
+      </label>
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>What concerns do you have about AI? (Select all that apply)</legend>
+      <label><input type="checkbox"  value="1"/>
+      Job displacement and unemployment
+      </label><label><input type="checkbox" value="2"/>
+      Privacy issues and data security
+      </label>
+      <label><input type="checkbox"/  value="3">
+      Ethical dilemmas and biases in AI algorithms
+      </label>
+      <label><input type="checkbox"/ value="4">
+      Over-reliance on technology
+      </label>
+      <label><input type="checkbox"/ value="5">
+      Lack of transparency and accountability
+      </label>
+      <label>Have you encountered any negative impacts of AI?
+        <textarea rows="3" cols="30" placeholder=""></textarea>
+      </label>
+    </fieldset>
+    <br>
+    <fieldset>
+      <label>Do you believe there should be more regulation and oversight of AI development and implementation?
+        <select id="dropdown">
+          <option value="strong-agree">Strongly agree</option>
+          <option value="agree">Agree</option>
+          <option value="neutral" selected>Neutral</option>
+          <option value="disagree">Disagree</option>
+          <option value="strong-disagree">Strongly disagree</option>
+        </select>
+        <label>Are you optimistic or pessimistic about the future impact of AI on society?
+        <select id="dropdown">
+          <option value="very-optimistic">Very optimistic</option>
+          <option value="optimistic">Somewhat optimistic</option>
+          <option value="neutral" selected>Neutral</option>
+          <option value="pessimistic">Somewhat pessimistic</option>
+          <option value="very-pessimistic">Very pessimistic</option>
+        </select>
+      </label>
+      <label>What do you think will be the most significant change brought about by AI in the next decade?
+        <textarea rows="3" cols="30" placeholder=""></textarea>
+      </label>
+    </fieldset>
+    <br>
+    <fieldset>
+      <label>Do you have any additional comments or suggestions about AI and its development?
+        <textarea rows="3" cols="30" placeholder=""></textarea>
+      </label>
+    </fieldset>
+    <input id="submit" type="submit" value="Submit" />
+  </form>
+  <div>
+    <h2>Thank you for your submission!</h2>
+    <p>We appreciate your time and effort in completing this survey. Your input is valuable to us.</p>
+  </div>
+ </body>
+ </html>
